@@ -81,4 +81,9 @@ nav{
     .nav--right{
         display: none;
     }
+
+    nav{
+        height: 8vh;
+    }
+    
   }
