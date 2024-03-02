@@ -8,6 +8,31 @@
         "img1": "./assets/2.jpg",
         "img2": "./assets/3.jpg",
         "img3": "./assets/1.jpg",
-        "link": "https://ekjotcollection.vercel.app/"
+        "demo-link": "https://ekjotcollection.vercel.app/",
+        "github-link": "https://github.com/PrabhpreetWalia/ekjotcollection.com"
+    },
+    {
+        "projectID": 1,
+        "title": "Ek Jot Collection",
+        "sub": "Showcase Website",
+        "stack": "html,css,js",
+        "about": "It is a website that is used to showcase stock of ek jot collection shop. It has clean UI/UX and fully responsive. Whole website is made with vanilla JS !!!",
+        "img1": "./assets/2.jpg",
+        "img2": "./assets/3.jpg",
+        "img3": "./assets/1.jpg",
+        "demo-link": "https://ekjotcollection.vercel.app/",
+        "github-link": "https://github.com/PrabhpreetWalia/ekjotcollection.com"
+    },
+    {
+        "projectID": 1,
+        "title": "Ek Jot Collection",
+        "sub": "Showcase Website",
+        "stack": "html,css,js",
+        "about": "It is a website that is used to showcase stock of ek jot collection shop. It has clean UI/UX and fully responsive. Whole website is made with vanilla JS !!!",
+        "img1": "./assets/2.jpg",
+        "img2": "./assets/3.jpg",
+        "img3": "./assets/1.jpg",
+        "demo-link": "https://ekjotcollection.vercel.app/",
+        "github-link": "https://github.com/PrabhpreetWalia/ekjotcollection.com"
     }
 ]
