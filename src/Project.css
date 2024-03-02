@@ -13,13 +13,14 @@
 
 .project{
     width: 100%;
-    min-height: auto;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem;
-    margin: 0 0 10rem 0;
+    padding: 3rem 3rem 10rem 0;
+    /* margin: 0 0 10rem 0; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .project--gallery{
@@ -121,6 +122,8 @@
     .project{
         flex-direction: column-reverse;
         justify-content: space-between;
+        padding: 3rem 3rem 14rem 0;
+
     }
     .project--text{
         width: 90vw;
@@ -170,7 +173,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    gap: 0.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
