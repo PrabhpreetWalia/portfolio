@@ -1,0 +1,84 @@
+nav{
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav--left{ 
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor:default;
+}
+
+.nav--right{
+    height: 100%;
+    font-weight: 500;
+}
+
+.nav--right ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.nav--right ul a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem;
+    position: relative;
+}
+
+.nav--li{
+    list-style: none;
+    color: var(--secondary-black);
+    font-size: 1.2rem;
+    transition: color 0.4s ease-in-out 0s;
+}
+
+.nav--right ul a::before{
+    content: ' ';
+    height: 45%;
+    width: 0rem;
+    background-color: var(--primary-color);
+    border-radius: 0 8rem 8rem 0;
+    margin: 0.2rem;
+    position: absolute;
+    left: 0;
+}
+
+.nav--right ul a::after{
+    content: ' ';
+    height: 45%;
+    width: 0rem;
+    background-color: var(--primary-color);
+    border-radius:  8rem 0 0 8rem ;
+    margin: 0.2rem;
+    position: absolute;
+    right: 0;
+}
+
+.nav--right ul a:hover::after, .nav--right ul a:hover::before{
+    width: 0.25rem;  
+    transition: width 0.4s ease-in-out;   
+}
+
+.nav--right ul a:hover .nav--li{
+    color: var(--primary-color);
+}
+
+
+@media only screen and (max-width:900px){
+    .nav--right{
+        display: none;
+    }
+  }

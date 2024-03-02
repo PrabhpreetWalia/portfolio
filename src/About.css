@@ -1,0 +1,85 @@
+
+.primary-blue{
+    color: var(--primary-color);
+    font-weight: 600n;
+}
+
+.about--container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.about--img{
+    width: clamp(20rem,32vw, 30rem);
+    height: clamp(20rem, 30vw, 30rem);
+    position: relative;
+}
+
+.about--img img:nth-child(1){
+    width: clamp(20rem,32vw, 30rem);
+    height: clamp(20rem, 30vw, 30rem);
+    border-radius: 3rem;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.about--img svg{
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: rotate 9s linear infinite;
+    cursor: default;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.about--emoji{
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+
+}
+
+.about--text{
+    width: clamp(20rem,30vw,30rem);
+    cursor: default;
+}
+
+.about--heading{
+    font-weight: 800;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+.about--subheading{
+    font-weight: 600;
+    color: var(--primary-black);
+    font-size: 1.2rem;
+}
+
+.about--paragraph{
+    font-weight: 400;
+    color: var(--secondary-black);
+    font-size: 1.1rem;
+}
