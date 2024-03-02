@@ -19,7 +19,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 3rem 3rem 10rem 0;
-    /* margin: 0 0 10rem 0; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -129,7 +128,7 @@
         width: 90vw;
     }
     .project--gallery{
-        margin: 0 30vw 0 0;
+        margin: 0 20vw 0 0;
     }
     .project--gallery img{
         width: 60vw;
