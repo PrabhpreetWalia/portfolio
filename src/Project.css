@@ -19,7 +19,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 3rem 10rem 0;
+    padding: 3rem 3rem 10rem 3rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     overflow: hidden;
 }
