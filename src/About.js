@@ -10,9 +10,9 @@ export default function About() {
         <div className="about--container" id="about">
 
             <div className="about--img">
-                <img src={Work} />
+                <img src={Work} alt="background"/>
                 <Circle />
-                <img className="about--emoji" src={WorkingEmoji} />
+                <img className="about--emoji" src={WorkingEmoji} alt="developer emoji"/>
 
             </div>
 

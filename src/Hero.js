@@ -19,21 +19,21 @@ export default function Hero() {
           </p>
           <br />
           <div className="hero--contact">
-            <a href="https://www.linkedin.com/in/prabhpreeet/" target="_blank"><Linkdin /></a>
-            <a href="https://github.com/PrabhpreetWalia" target="_blank"><Github /></a>
-            <a href="mailto:prabhpreet.business@gmail.com" target="_blank"><Gmail /></a>
+            <a href="https://www.linkedin.com/in/prabhpreeet/" rel="noreferrer" target="_blank"><Linkdin /></a>
+            <a href="https://github.com/PrabhpreetWalia" rel="noreferrer" target="_blank"><Github /></a>
+            <a href="mailto:prabhpreet.business@gmail.com" rel="noreferrer" target="_blank"><Gmail /></a>
 
           </div>
         </div>
         <div className="hero--img">
-          <img src={self} />
+          <img src={self} alt="prabhpreet's pic"/>
         </div>
       </div>
       <div className="hero--footer">
         <p>Tech Stack |</p>
         <div className="hero--stack">
-          <img src="https://skillicons.dev/icons?i=html,css" />
-          <img src="https://skillicons.dev/icons?i=js,react" />
+          <img src="https://skillicons.dev/icons?i=html,css" alt="html, css svg"/>
+          <img src="https://skillicons.dev/icons?i=js,react" alt="jsj, react svg"/>
 
         </div>
       </div>

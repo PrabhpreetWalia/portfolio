@@ -26,6 +26,7 @@ export default function Project() {
                             className="about--heading project--heading"
                             href={project.link}
                             target="_blank"
+                            rel="noreferrer"
                         >
                             {project.title}
                         </a>
@@ -37,14 +38,14 @@ export default function Project() {
                         <br />
                         <div className="project--stack">
                             <span>Stack Used | </span>
-                            <img src={"https://skillicons.dev/icons?i=" + project.stack} />
+                            <img src={"https://skillicons.dev/icons?i=" + project.stack} alt={project.stack + " svg"}/>
                         </div>
                         <div className="hero--contact project--link">
-                            <a href={project["github-link"]} target="_blank">
+                            <a href={project["github-link"]} target="_blank" rel="noreferrer">
                                 <Github /> <span>Get Code</span>
                             </a>
                             <br />
-                            <a href={project["demo-link"]} target="_blank">
+                            <a href={project["demo-link"]} target="_blank" rel="noreferrer">
                                 <CustomLink /> <span>Live Demo</span>
                             </a>
 
