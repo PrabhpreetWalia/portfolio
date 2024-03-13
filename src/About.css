@@ -83,3 +83,10 @@
     color: var(--secondary-black);
     font-size: 1.1rem;
 }
+
+@media screen and (max-width: 440px) {
+    .about--img{
+        display: none;
+    }
+        
+}

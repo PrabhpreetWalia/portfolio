@@ -58,11 +58,20 @@
   
 }
 
+.hero--img{
+  padding: 2rem 0;
+}
+
 .hero--img img {
-  width: 22vw;
+  /* width: 22vw;
   height: 22vw;
-  min-width: 14rem;
-  min-height: 14rem;
+  min-width: 11rem;
+  min-height: 11rem; */
+
+  height: clamp(11rem, 30vw, 22rem);
+  width: clamp(11rem, 30vw, 22rem);
+
+
   object-fit: cover;
   border-radius: 50%;
   animation: morph 8s ease-in-out infinite;
@@ -137,8 +146,9 @@
 
 .hero--footer p{
     font-weight: 600;
-    font-size: clamp(1.3rem, 3vw ,1.6rem);
+    font-size: clamp(1.1rem, 3vw ,1.6rem);
     color: var(--secondary-black);
+    text-wrap: nowrap;
 }
 
 .hero--stack img:nth-child(1){
