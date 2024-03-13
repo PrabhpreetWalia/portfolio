@@ -68,8 +68,8 @@
   min-width: 11rem;
   min-height: 11rem; */
 
-  height: clamp(11rem, 30vw, 22rem);
-  width: clamp(11rem, 30vw, 22rem);
+  height: clamp(15rem, 30vw, 22rem);
+  width: clamp(15rem, 30vw, 22rem);
 
 
   object-fit: cover;
