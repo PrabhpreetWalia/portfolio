@@ -1,15 +1,15 @@
 [
     {
         "projectID": 1,
-        "title": "Ek Jot Collection",
-        "sub": "Showcase Website",
-        "stack": "html,css,js",
-        "about": "It is a website that is used to showcase stock of ek jot collection shop. It has clean UI/UX and fully responsive. Whole website is made with vanilla JS !!!",
-        "img1": "./assets/2.jpg",
-        "img2": "./assets/3.jpg",
-        "img3": "./assets/1.jpg",
-        "demo-link": "https://ekjotcollection.vercel.app/",
-        "github-link": "https://github.com/PrabhpreetWalia/ekjotcollection.com"
+        "title": "Gymrat",
+        "sub": "Gym Website",
+        "stack": "html,css,react",
+        "about": "It is a rersponsive website for local gym. It has user friendly UI/UX. Flask server is used to fetch news for gym members",
+        "img1": "./assets/gymrat/2.jpg",
+        "img2": "./assets/gymrat/3.jpg",
+        "img3": "./assets/gymrat/1.jpg",
+        "demo-link": "https://gymrat-master.vercel.app/",
+        "github-link": "https://github.com/PrabhpreetWalia/gymrat"
     },
     {
         "projectID": 2,
@@ -17,9 +17,9 @@
         "sub": "Showcase Website",
         "stack": "html,css,js",
         "about": "It is a website that is used to showcase stock of ek jot collection shop. It has clean UI/UX and fully responsive. Whole website is made with vanilla JS !!!",
-        "img1": "./assets/2.jpg",
-        "img2": "./assets/3.jpg",
-        "img3": "./assets/1.jpg",
+        "img1": "./assets/ekjotcollection/1.jpg",
+        "img2": "./assets/ekjotcollection/3.jpg",
+        "img3": "./assets/ekjotcollection/2.jpg",
         "demo-link": "https://ekjotcollection.vercel.app/",
         "github-link": "https://github.com/PrabhpreetWalia/ekjotcollection.com"
     }
