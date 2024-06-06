@@ -10,11 +10,11 @@ export default function Hero() {
       <div className="hero--main">
         <div className="hero--text">
           <h1>
-            Front-End React Developer <span className="wave">👋</span>
+            Full Stack Web Developer <span className="wave">👋</span>
           </h1>
           <br />
           <p>
-            Hi, I'm Prabhpreet Walia. A passionate Front-end React Developer
+            Hi, I'm Prabhpreet Walia. A passionate Full Stack Web Developer
             based in Chandigarh, India.
           </p>
           <br />
@@ -32,8 +32,8 @@ export default function Hero() {
       <div className="hero--footer">
         <p>Tech Stack |</p>
         <div className="hero--stack">
-          <img src="https://skillicons.dev/icons?i=html,css" alt="html, css svg"/>
-          <img src="https://skillicons.dev/icons?i=js,react" alt="jsj, react svg"/>
+          <img src="https://skillicons.dev/icons?i=mongodb,express" alt="nodejs, react svg"/>
+          <img src="https://skillicons.dev/icons?i=react,nodejs" alt="nodejs, react svg"/>
 
         </div>
       </div>
